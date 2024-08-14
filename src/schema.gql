@@ -1,0 +1,19 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Consulta {
+  """Example field (placeholder)"""
+  exampleField: Int!
+}
+
+type Device {
+  id: Float!
+  name: String!
+}
+
+type Query {
+  devices: [Device!]
+  getLogsByTime(id: Int!): Consulta!
+  hello: String!
+}

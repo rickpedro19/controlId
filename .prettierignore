@@ -1,0 +1,9 @@
+# compiled output
+/dist
+.npmrc
+coverage
+.czrc
+**/@generated/**/*.*
+prisma
+dist
+**/@generated/**/*.*
